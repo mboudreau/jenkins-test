@@ -11,9 +11,7 @@ pipeline {
                      jiraSendBuildInfo site: 'mboudreau.atlassian.net'
                  }
              }
-         }
-          
-          
+         }          
           
          stage('Deploy - Staging') {
              when {
